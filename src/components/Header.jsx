@@ -14,7 +14,11 @@ const Header = ({ exibirUsuario }) => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <img src="/logo_ifce.png" alt="logo-IFCE" className={styles.img} />
+        <img
+          src={`${import.meta.env.BASE_URL}logo_ifce.png`}
+          alt="logo-IFCE"
+          className={styles.img}
+        />
       </div>
       {exibirUsuario && (
         <div className={styles.usuario}>
