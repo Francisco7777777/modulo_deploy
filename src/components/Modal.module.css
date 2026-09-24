@@ -1,0 +1,50 @@
+.conteiner {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.conteudo {
+  background-color: white;
+  top: 50%;
+  right: 50%;
+  transform: translate(75%, 100%);
+  border-radius: 10px;
+  height: 200px;
+  width: 40%;
+}
+
+.menssagem {
+  padding: 30px 0 20px 30px;
+  font-size: 1.5em;
+}
+
+.conteir_caixa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.daixa_sim {
+  background-color: blue;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.daixa_nao {
+  background-color: red;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  width: 100px;
+}
